@@ -9,3 +9,17 @@ board with on-board olympic scoreboard
  5. 데이터 구조 짜기(DB 스키마)
  6. URL 설계하기
  7. 분업하기
+
+# 데이터구조
+ (id, date, contents)
+ CREATE TABLE posts ( id MEDIUMINT NOT NULL AUTO_INCREMENT, date DATE, contents TEXT, PRIMARY KEY(id));
+ 
+ mysql> desc posts;
++----------+--------------+------+-----+---------+----------------+
+| Field    | Type         | Null | Key | Default | Extra          |
++----------+--------------+------+-----+---------+----------------+
+| id       | mediumint(9) | NO   | PRI | NULL    | auto_increment |
+| date     | date         | YES  |     | NULL    |                |
+| contents | text         | YES  |     | NULL    |                |
++----------+--------------+------+-----+---------+----------------+
+ https://dev.mysql.com/doc/refman/5.7/en/create-table.html
