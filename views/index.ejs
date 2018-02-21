@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <b>Show Contents</b>
+    <a href="/add">
+      <button>Add contents</button>
+    </a>
+    <ul>
+      <% print.forEach(function(posts) { %>
+        <li>
+          <%= posts.contents %>
+        </li>
+      <% }) %>
+    </ul>
+</body>
+</html>
