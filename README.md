@@ -1,6 +1,11 @@
 # on-board
 board with on-board olympic scoreboard
 
+# Install
+```
+npm install
+```
+
 # simple todo
  1. ~~github repo 파기~~
  2. ~~repo에 contributor로 날 invite하기~~
